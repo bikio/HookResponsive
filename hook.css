@@ -5,26 +5,32 @@
   box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'good_footregular';
+    src: url('fonts/goodfoot-webfont.eot');
+    src: url('fonts/goodfoot-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/goodfoot-webfont.woff') format('woff'),
+         url('fonts/goodfoot-webfont.ttf') format('truetype'),
+         url('fonts/goodfoot-webfont.svg#good_footregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body, html {
   height: 100%;
 }
 
 
-@font-face {
-    font-family: goodfoot;
-    src: url('fonts/goodfoot.ttf');
-    font-weight: bold;
-}
-
 
 h1 {
-  font-family: goodfoot;
-  font-size: 6em;
+  font-family: good_footregular;
+  font-size: 7em;
 }
 
 h2 {
-  font-size: 3em;
-  font-family: goodfoot;
+  font-size: 4em;
+  font-family: good_footregular;
 }
 
 .blurImg {
@@ -65,43 +71,129 @@ header > div {
   text-align: center;
   color: White;
 }
-.container {
-  height:750px;
-  background: url('images/map.png');
-  width: 100%;
-  border: 2px solid black;
-}
 
 nav {
   width: 100%;
+  z-index: 99;
   position: fixed;
-  height: 80px;
+  height: 100px;
   background: url('images/map.png');
+  box-shadow: 1px 5px 3px rgba(0,0,0,.1);
+}
+
+nav img {
+  height: 105px;
+  width: 23em;
+  float: left;
+  padding: 1.3% 2% 1.5%;
+}
+nav li {
+list-style-type: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+nav a {
+  font-family: good_footregular;
+  color: dimgray;
+  float: right;
+  font-size: 3em;
+  list-style-type: none;
+}
+
+.navtxt {
+  padding-right: 3%;
+  padding-top: 2%;
 }
 
 .container {
-  height: 1300px;
-  z-index: 1;
-  padding: 0px 20px;
+  width: 100%;
+  background: url('images/map.png');
+  border: 1px solid gray;
+  padding-bottom: 3%;
 }
 
 .logohead {
   margin-top: 8%;
-  border:2px solid #3D7A99;
-}
+/*  border:2px solid #3D7A99;
+*/}
 
 .products {
   float: left;
   width: 100%;
-  height: 600px;
-  border: 2px solid blue;
+  height: 50em;
+  border: 1px solid gray;
+  padding-bottom: 3%;
 }
 
 .prod {
   width:28%;
-  height: 38%;
+  height: 45%;
   float: left;
-  border: 3px solid green;
-  margin: 2%;
+  border: 1px solid gray;
+  margin: 2.4%;
+  overflow: hidden;
 }
 
+.prod img {
+  height: 90%;
+  width: 100%;
+}
+
+.testimonial {
+  width: 100%;
+  height: 340px;
+  background: url('images/blue.png');
+/*  background-repeat: no-repeat;
+*/background-attachment: fixed;
+ -webkit-background-size: 100% !important;
+       -moz-background-size: 100% !important;
+            background-size: 100%;
+}
+
+.testimonial p {
+  width: 65%;
+  color: white;
+  font-size: 2.2em;
+  font-family: good_footregular;
+  padding-top: 5%;
+  padding-bottom: 1%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.testimonial h3 {
+  color: white;
+  font-family: good_footregular;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 3em;
+  padding-bottom: 10% !important;
+}
+
+.about {
+  width: 100%;
+  background: url('images/map.png');
+}
+
+.about p {
+  width:60%;
+  font-size: 1.8em;
+  text-align: center;
+  font-family: good_footregular;
+  margin: 0 auto;
+  padding-bottom: 2%;
+}
+
+.about img {
+    height: 15%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
