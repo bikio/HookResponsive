@@ -108,12 +108,12 @@ jQuery(document).ready(function($){
 			    'top': finalTop+ 'px',
 			    'left': finalLeft+'px',
 			    'width': finalWidth+'px',
-			}, 1000, [ 400, 20 ], function(){
+			}, 700, [ 400, 20 ], function(){
 				//animate the quick view: animate its width to the final value
 				$('.cd-quick-view').addClass('animate-width').velocity({
 					'left': quickViewLeft+'px',
 			    	'width': quickViewWidth+'px',
-				}, 300, 'ease' ,function(){
+				}, 1100, 'ease' ,function(){
 					//show quick view content
 					$('.cd-quick-view').addClass('add-content');
 				});

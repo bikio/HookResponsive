@@ -112,7 +112,6 @@ nav a {
 .container {
   width: 100%;
   background: url('images/map.png');
-  border: 1px solid gray;
   padding-bottom: 3%;
 }
 
