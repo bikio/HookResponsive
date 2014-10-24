@@ -17,7 +17,7 @@ body {
   font-size: 100%;
   color: #3e585f;
 }
-body::after {
+/*body::after {
   /* dark overlay layer - visible when we fire .cd-quick-view */
   position: fixed;
   top: 0;
@@ -30,7 +30,7 @@ body::after {
   -webkit-transition: opacity .3s 0s, visibility 0s .3s;
   -moz-transition: opacity .3s 0s, visibility 0s .3s;
   transition: opacity .3s 0s, visibility 0s .3s;
-}
+}*/
 @media only screen and (min-width: 1024px) {
   body.overlay-layer::after {
     visibility: visible;
