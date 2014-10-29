@@ -113,7 +113,7 @@ jQuery(document).ready(function($){
 				$('.cd-quick-view').addClass('animate-width').velocity({
 					'left': quickViewLeft+'px',
 			    	'width': quickViewWidth+'px',
-				}, 1100, 'ease' ,function(){
+				}, 450, 'ease' ,function(){
 					//show quick view content
 					$('.cd-quick-view').addClass('add-content');
 				});
