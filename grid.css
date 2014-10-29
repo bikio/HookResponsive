@@ -88,11 +88,11 @@ header {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-header h1 {
-  color: #ffffff;
-  font-size: 20px;
-  font-size: 1.25rem;
-}
+.container h1 {
+  color: dimgray;
+  font-size: 6em;
+  padding-top: 4%;
+text-align: center;}
 @media only screen and (min-width: 768px) {
   header {
     line-height: 180px;
@@ -124,10 +124,13 @@ header h1 {
 
 .cd-item {
   position: relative;
-  margin: 0 0 1em;
-}
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+
+/*  margin: 0 0 1em;
+*/}
 .cd-item > img {
   display: block;
+  height: 275px;
   width: 100%;
 }
 @media only screen and (min-width: 768px) {
@@ -159,7 +162,7 @@ header h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: lightseagreen;
+    background: url('images/map2.png');
   }
 }
 
@@ -170,7 +173,7 @@ header h1 {
   width: 100%;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.5);
   text-align: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -214,6 +217,7 @@ header h1 {
 @media only screen and (min-width: 1024px) {
   .cd-quick-view {
     display: block;
+    margin-top: 80px;
     position: fixed;
     max-width: 900px;
     visibility: hidden;
@@ -240,7 +244,7 @@ header h1 {
   .cd-quick-view.animate-width {
     /* class added at the end of the first zoom-in animation */
     background-color: #ffffff;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
     -webkit-transition: box-shadow 0.3s;
     -moz-transition: box-shadow 0.3s;
     transition: box-shadow 0.3s;
