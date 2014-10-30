@@ -143,21 +143,22 @@ nav a {
 .down img {
   padding-top: 4%;
   position: center;
-  width: 6%;
+  width: 6.5%;
+  height: 130px;
 }
 
 /* Pulse Shrink */
 @-webkit-keyframes pulse-shrink {
   to {
-    -webkit-transform: scale(0.95);
-    transform: scale(0.95);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
 }
 
 @keyframes pulse-shrink {
   to {
-    -webkit-transform: scale(0.95);
-    transform: scale(0.95);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
 }
 
@@ -188,7 +189,7 @@ nav a {
 }
 
 .logohead {
-  margin-top: 7%;
+  margin-top: 4%;
 /*  border:2px solid #3D7A99;
 */}
 
