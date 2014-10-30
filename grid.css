@@ -171,8 +171,9 @@ text-align: center;}
   line-height: 50px;
   width: 100%;
   bottom: 0;
+  font-size: 1.4em;
   left: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   text-align: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -184,7 +185,8 @@ text-align: center;}
   transition: opacity 0.2s, background-color 0.2s;
 }
 .no-touch .cd-trigger:hover {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 1.6em;
 }
 @media only screen and (min-width: 1024px) {
   .cd-trigger {
