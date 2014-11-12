@@ -22,7 +22,6 @@ body, html {
 }
 
 
-
 h1 {
   font-family: good_footregular;
   font-size: 7em;
@@ -106,8 +105,6 @@ nav a:hover, nav a:focus, nav a:active {
   transform: scale(1.15);
   color: lightseagreen;
 }
-
-
 
 
 .navbar-logo {
