@@ -236,7 +236,7 @@ div#products.products {
 .testimonial {
   width: 100%;
   height: 340px;
-  background: url('images/canoe.png');
+  background: url('images/canoelight.png');
 /*  background-repeat: no-repeat;
 */background-attachment: fixed;
  -webkit-background-size: 100% !important;
@@ -246,7 +246,7 @@ div#products.products {
 
 .testimonial p {
   width: 65%;
-  color: white;
+  color: dimgray;
   font-size: 2.2em;
   font-family: good_footregular;
   padding-top: 7%;
@@ -256,7 +256,7 @@ div#products.products {
 }
 
 .testimonial h3 {
-  color: white;
+  color: dimgray;
   font-family: good_footregular;
   text-align: center;
   margin: 0 auto;
