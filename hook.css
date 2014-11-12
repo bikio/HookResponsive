@@ -140,11 +140,14 @@ nav a {
   padding-bottom: 2%;
 }
 
-.down img {
-  padding-top: 4%;
-  position: center;
-  width: 6.5%;
-  height: 130px;
+
+.logohead img {
+  /*padding-top: 4%;*/
+  /*position: center;*/
+  width: 10.5%;
+  margin-bottom: -50px;
+  height: 120px;
+  /*bottom: 0 !important;*/
 }
 
 /* Pulse Shrink */
