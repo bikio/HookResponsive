@@ -150,15 +150,15 @@ nav a {
 /* Pulse Shrink */
 @-webkit-keyframes pulse-shrink {
   to {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
   }
 }
 
 @keyframes pulse-shrink {
   to {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
   }
 }
 
@@ -168,11 +168,11 @@ nav a {
   transform: translateZ(0);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0);
 }
-.down img:hover, .down img:focus, .down img:active {
+.down img, .down img:hover, .down img:focus, .down img:active {
   -webkit-animation-name: pulse-shrink;
   animation-name: pulse-shrink;
-  -webkit-animation-duration: 0.6s;
-  animation-duration: 0.6s;
+  -webkit-animation-duration: 0.9s;
+  animation-duration: 0.9s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
